@@ -2,7 +2,7 @@
 
 Welcome to the Plants Online Shop project! This simple e-commerce web application, developed with HTML, vanilla JavaScript, and SCSS, was a part of my studies at RollingScopes School. It reflects the practical application of skills gained during my academic journey.
 
-Here is [Deploy.](https://iradzh-plants.netlify.app/)
+Here is [Deploy.](https://iradzh.github.io/plants/)
 
 ## Features Highlights
 
