@@ -1,0 +1,26 @@
+@import "base//normalize";
+@import "base/constants";
+@import "base/fonts";
+@import "base/hover";
+
+@import "sections/backgrounds";
+@import "sections/wrapper";
+
+@import "sections/1_header";
+@import "sections/2_welcome";
+@import "sections/3_about";
+@import "sections/4_service";
+@import "sections/5_prices";
+@import "sections/6_contacts";
+@import "sections/7_footer";
+
+
+
+@import "active/service_active_content_style";
+@import "active/price_active";
+@import "active/price_active_content_style";
+
+@import "active/contacts_selection_custom";
+@import "active/contacts_adresses";
+
+@import "active/contacts_mobile_js";

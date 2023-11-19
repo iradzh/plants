@@ -1,0 +1,186 @@
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+#crossID {
+    display: none;
+    cursor: pointer;
+}
+.header {
+    height: 134px;
+}
+.header-container {
+    width: $laptop-content-width;
+    padding: 42px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+}
+.navigation_link {
+    padding-left: 47px;
+}
+.header_logo_name {
+    padding-bottom: 35px;
+}
+.naviagtion_color {
+    color: $color-brand;
+}
+ 
+
+
+.header_logo_name {
+    margin: 0;
+    padding: 0;
+}
+.header_navigation {
+    margin: 0;
+    padding: 0;
+}
+
+
+// Tablet
+
+@media (min-width: $tablet-breackpoint) and (max-width: $desktop-breackpoint)  {
+    .header {
+        height: 117px;
+    }
+    .header-container {
+        width: $tablet-content-width;
+        padding: 36px 0;
+    }
+    .header_logo_name {
+        padding-bottom: 35px;
+        margin-top: 16px;
+    }
+    .header_logo_name {
+        margin: 0;
+        padding: 0;
+    }
+    .header_navigation {
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+// Mobile
+
+@media (min-width: $mobile-breackpoint) and (max-width: $tablet-breackpoint) {
+    
+    .header {
+        height: 96px;
+    }
+    .header-container {
+        width: $mobile-content-width;
+        padding: 36px 0;
+
+    }
+    
+    .header_logo_name {
+        padding-bottom: 37px;
+    }
+    .navigation_link {
+        padding-left: 0;
+        font-size: 26px;
+        margin-top: 12px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-bottom: 22px;
+    }
+    .navigation {
+        position: fixed;
+        left: -200%;
+        top: -20px;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        width: 130%;
+        height: 240px;
+        background-color: $color-white;
+        transition: all 0.3s ease-in-out;
+
+    }
+    #crossID {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 200%;
+        width: 15px;
+        height: 15px;
+        color: $color-brand;
+    }
+
+    .navigation.active {
+        left: 0;
+        
+    }
+    #crossID.active {
+        right: 20px;
+
+    }
+}
+
+
+//SMALLEST SCREEN
+
+@media (min-width: $smallest_breakpoint) and (max-width: $mobile-breackpoint) {
+    
+    .header {
+        height: 96px;
+    }
+    .header-container {
+        width: $smallest-content-width;
+        padding: 36px 0;
+    }
+    
+    .header_logo_name {
+        padding-bottom: 37px;
+    }
+    .navigation_link {
+        padding-left: 0;
+        font-size: 26px;
+        margin-top: 12px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-bottom: 22px;
+    }
+    .navigation {
+        position: fixed;
+        left: -200%;
+        top: -20px;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        width: 130%;
+        height: 240px;
+        background-color: $color-white;
+        transition: all 0.3s ease-in-out;
+
+    }
+    .material-symbols-outlined {
+        display: inline-block;
+        position: fixed;
+        top: 10px;
+        right: 200%;
+        width: 15px;
+        height: 15px;
+        color: $color-brand;
+    }
+
+    .navigation.active {
+        left: 0;
+        
+    }
+    .material-symbols-outlined.active {
+        right: 20px;
+
+    }
+}

@@ -1,0 +1,236 @@
+.service {
+    height: 1300px;
+}
+.service_title_btn_conainer {
+    display: flex; 
+    margin-bottom: 81px;
+}
+.service_buttons {
+    padding-top: 69px;
+    padding-left: 158px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service_cards_conainer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.service_card {
+    margin-bottom: 51px;
+    width: 330px;
+    height: 450px;
+    border: 1px solid $color-frame;
+    border-radius: 20px 20px 20px 20px; 
+    transition: all ease 1s;
+}
+.service_card_pic {
+    width: 329px;
+    height: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+//texts
+
+.service_title {
+    font-family: 'Inika', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: $color-title;;
+    padding-top: 37px;
+}
+.service_card_title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: $color-brand;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.service_card_p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    font-family: Inter;
+    color: $color-highlight;
+    padding-top: 15px;
+}
+
+.service_btn {
+    width: 161px;
+    height: 50px;
+    background-color: $color-background;
+    border: 1px solid $color-brand;
+    border-radius: 5px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: $color-brand; 
+    margin-right: 38px;
+}
+// Tablet
+
+@media (min-width: $tablet-breackpoint) and (max-width: $desktop-breackpoint) {
+    .service {
+        height: 1780px;
+    }
+    //perfect
+    .service_title_btn_conainer {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    //perfect
+    .service_buttons {
+        padding: 43px 0 0 0;
+    }
+    //perfect
+    .service_card {
+        width: 281px;
+        height: 450px;
+        margin-bottom: 38px;
+    }
+    //perfect
+    .service_card_pic {
+        object-fit: cover;
+        width: 280px;
+        height: 350px;
+    }
+    
+    //perfect
+    .service_title {
+        font-size: 35px;
+        line-height: 46px;
+        padding-top: 60px;
+    }
+    //perfect
+    .service_card_title {
+        padding-top: 5px;
+    }
+     //perfect
+    .service_card_p {
+        padding: 10px 35px 0 35px;
+    }
+}
+
+//
+//
+//
+//
+//
+//
+// Mobile
+
+@media (min-width: $mobile-breackpoint) and (max-width: $tablet-breackpoint) {
+    .service {
+        height: 3150px;
+    }
+    //perfect
+    .service_title_btn_conainer {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    //perfect
+    .service_buttons {
+        padding: 39px 0 0 0; 
+    }
+    //perfect
+    .service_card {
+        margin: 0 auto 31px auto;
+        width: 280px;
+        height: 450px;
+    }
+    //perfect
+    .service_card_pic {
+        object-fit: cover;
+        width: 279px;
+        height: 350px;
+    }
+    
+    //texts
+    //perfect
+    .service_title {
+        font-size: 25px;
+        line-height: 33px;
+        padding-top: 30px;
+    }
+    //perfect
+    .service_card_title {
+        padding-top: 4px;
+    }
+    
+    .service_card_p {
+        margin: 0;
+        padding: 11px 35px 0 35px;
+    }
+    //perfect
+    .service_btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 10px 10px 0;
+    }
+}
+
+//SMALLEST SCREEN
+
+@media (min-width: $smallest_breakpoint) and (max-width: $mobile-breackpoint) {
+    .service {
+        height: 3150px;
+    }
+    //perfect
+    .service_title_btn_conainer {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    //perfect
+    .service_buttons {
+        padding: 39px 0 0 0; 
+    }
+    //perfect
+    .service_card {
+        margin: 0 auto 31px auto;
+        width: 280px;
+        height: 450px;
+    }
+    //perfect
+    .service_card_pic {
+        object-fit: cover;
+        width: 279px;
+        height: 350px;
+    }
+    
+    //texts
+    //perfect
+    .service_title {
+        font-size: 25px;
+        line-height: 33px;
+        padding-top: 30px;
+    }
+    //perfect
+    .service_card_title {
+        padding-top: 4px;
+    }
+    
+    .service_card_p {
+        margin: 0;
+        padding: 11px 35px 0 35px;
+    }
+    //perfect
+    .service_btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 10px 10px 0;
+    }
+
+}

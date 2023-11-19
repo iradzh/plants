@@ -1,0 +1,36 @@
+.header_logo_name {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-black; 
+}
+.navigation_link {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-black; 
+}
+.welcome_title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: $color-highlight;
+    line-height: 50px;
+    margin: 0;
+}
+.welcome_p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: $color-paragraph;
+    line-height: 35px;
+}
+.welcome_highlight, .prices_highlight {
+    color: $color-title;
+}
+
+.about_highlight {
+    color: $color-brand;
+}
+.welcome_title, .about_title, .about_p, .about_image, .service_title, .service_card_title, .service_card_p {
+    margin: 0;
+}

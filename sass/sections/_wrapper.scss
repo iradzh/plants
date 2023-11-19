@@ -1,0 +1,33 @@
+
+.wrapper {
+    max-width: $laptop-content-width;
+    margin: auto;
+}
+// Tablet
+
+@media (min-width: $tablet-breackpoint) and (max-width: $desktop-breackpoint) {
+    .wrapper {
+        max-width: $tablet-content-width;
+        margin: auto;      
+    }
+}
+
+// Mobile
+
+@media (min-width: $mobile-breackpoint) and (max-width: $tablet-breackpoint) {
+    .wrapper {
+        max-width: $mobile-content-width;
+        margin: auto;      
+    }
+}
+
+
+
+// Smallest screen
+
+@media (min-width: $smallest_breakpoint) and (max-width: $mobile-breackpoint) {
+    .wrapper {
+        max-width: $smallest-content-width;
+        margin: auto;      
+    }
+}

@@ -1,0 +1,24 @@
+.nav_hover:hover {
+    color: $color-brand;
+}
+.welcome_btn:hover {
+    color: $color-white;
+    background-color: $color-brand;
+    cursor: pointer;
+}
+
+.service_btn:hover {
+    cursor: pointer;
+}
+
+.prices_btn:hover {
+    color: $color-white;
+    background-color: $color-brand;
+    cursor: pointer;
+}
+button {
+    transition: 0.5s ease all;
+}
+.circle {
+    cursor: pointer;
+}

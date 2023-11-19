@@ -1,0 +1,120 @@
+.adr_can {
+    display: none;
+}
+.adr_ny {
+    display: none;
+}
+
+.adr_yon {
+    display: none;
+}
+
+.adr_she {
+    display: none;
+}
+
+.adr_active {
+    display: inline-block
+}
+
+.adr {
+    height: 214px;
+    width: 448px;
+    background-color: $color-background;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+table {
+    padding: 17px 76px 0 33px;
+}
+
+.adr_row_1 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.adr_row_2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: $color-highlight;
+}
+
+.adr_btn {
+    width: 122px;
+    height: 26px;
+    border: 1px solid $color-brand;
+    border-radius: 5px;
+    background-color: $color-background;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: $color-highlight;
+    margin: 20px 163px;
+    cursor: pointer;
+}
+
+
+@media (min-width: $mobile-breackpoint) and (max-width: $tablet-breackpoint) {
+    
+    .adr {
+        height: 212px;
+        width: 282px;
+
+
+        // background-color: $color-background;
+        // border: 1px solid #000000;
+        // border-radius: 20px;
+        // margin-top: 40px;
+    }
+    table {
+        padding: 22px 0px 20px 12px;
+    }
+    
+    .adr_row_1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        padding-right: 0;    
+        width: 64.69194030761719px;
+        margin: 0;
+       
+    }
+    
+    .adr_row_2 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin: 0;
+      
+       padding: 5px 0;
+      
+       
+
+    }
+    
+    
+    .adr_btn {
+        
+        margin: 0 73px 23px 86px;
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,49 @@
+$color-brand: #E06733;
+$color-title: #499A18;
+$color-background: #EDF2EC;
+
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+$color-paragraph: #636060;
+$color-highlight: #717171;
+
+$color-elements: #D9D9D9;
+$color-frame: #E3E1D5;
+
+$laptop-width: 1440px;
+$laptop-content-width: 1222px;
+
+$tablet-width: 768px;
+$tablet-content-width: 668px;
+
+$mobile-width: 378px;
+$mobile-content-width: 330px;
+
+$smallest-width: 320px;
+$smallest-content-width: 300px;
+
+$desktop-breackpoint: 1439px;
+
+$tablet-breackpoint: 767px;
+
+$mobile-breackpoint: 377px;
+
+$smallest_breakpoint: 309px;
+
+
+.logo {
+    background-image: url(../img/logo_vector.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+}
+
+ul {
+    list-style: none;
+}

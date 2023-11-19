@@ -1,0 +1,31 @@
+
+// Mobile with JS
+
+@media (min-width: $mobile-breackpoint) and (max-width: $tablet-breackpoint) {
+    
+    .contacts_box {
+       
+    }
+    .contacts_container {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .contact_select_section {
+        margin: 0 0 0 0;
+        padding: 0;
+        width: 300px;
+        height: fit-content;
+    }
+    .contacts_img {
+        width: 100px;
+        height: 124.25px;
+        padding: 0;
+        padding-top: 192px;
+    }
+    .contacts_img_inactive {
+        display: none;
+    }
+    
+
+}

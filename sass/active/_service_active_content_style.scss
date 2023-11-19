@@ -1,0 +1,11 @@
+.service_btn_active {
+    color: $color-white;
+    background-color: $color-brand;
+    transition: all ease 1s;
+}
+
+
+.service_card_blur {
+    filter: blur(3px);
+    transition: all ease 1s;
+}

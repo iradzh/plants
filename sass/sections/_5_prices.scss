@@ -1,0 +1,325 @@
+.prices {
+    height: 560px;
+}
+.prices_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+// LEFT SIDE 
+
+
+.prices_title_left {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $color-black;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 57px;
+}
+.prices_box {
+    border: 1px solid $color-frame;
+    border-radius: 20px;
+    width: 332px;
+    height: 282.01px;
+}
+
+.one_price_box {
+    width: 250px;
+    height: 50px;
+    background-color: $color-background;
+    border-radius: 20px;
+    margin: 33px auto;
+}
+
+.price_item_content {
+    display: none;
+}
+.price_item_content_2 {
+    display: none;
+}
+.price_item_content_3 {
+    display: none;
+}
+
+.prices_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    background-color: $color-elements;
+    margin-right: 40px;
+    border-radius: 50%;
+    margin-top: 17px;
+}
+
+.element {
+    font-size: 14px;
+    width: 4px;
+    margin-left: 1px;
+    margin-top: 2px;
+    color: $color-highlight;
+}
+.prices_item_title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: $color-black;
+    padding-left: 40px;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+
+
+// RIGHT SIDE
+
+.prices_title_right_side {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $color-black;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 41px;
+    margin: 0;
+}
+
+.prices_right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.prices_pic {
+    width: 152px;
+    height: 174.99px;
+    padding-top: 39px;
+
+}
+.prices_btn {
+    width: 161px;
+    height: 50px;
+    background-color: $color-white;
+    border: 1px solid $color-brand;
+    border-radius: 5px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: $color-brand; 
+}
+
+
+// Tablet
+
+@media (min-width: $tablet-breackpoint) and (max-width: $desktop-breackpoint) {
+    // perfect
+    .prices {
+        height: 585px;
+    }
+    // perfect
+    .prices_container {
+        flex-direction: row;
+    }
+    // perfect
+    .prices_title_left {
+        font-size: 35px;
+        line-height: 42px;
+        margin: 0;
+        padding-left: 14px;
+    }
+
+    // RIGHT SIDE
+    // perfect
+    .prices_title_right_side {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 142px;
+        padding-bottom: 28px;
+        margin: 0;
+    }
+    .prices_pic {
+        padding-top: 34px;
+    }
+}
+
+//
+//
+//
+//
+//
+//
+// Mobile
+
+@media (min-width: $mobile-breackpoint) and (max-width: $tablet-breackpoint) {
+    //perfect
+    .prices {
+        height: 512px;
+    }
+    //perfect
+    .prices_container {
+       flex-direction: column;
+    }
+    //perfect
+    .prices_title_left {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0;
+        padding-top: 25px;
+        padding-bottom: 28px;
+    }
+    .prices_box {
+        margin: auto;
+        width: 224px;
+        height: 220px;
+        padding-top: 1px;
+    }
+    .one_price_box {
+        width: 180px;
+        height: 49.72px;
+        margin: 15px auto;
+    }
+    .circle {
+        width: 16px;
+        height: 16px;
+        background-color: $color-elements;
+        margin-right: 38px;
+        border-radius: 50%;
+    }
+    #element {
+        font-size: 14px;
+        width: 4px;
+        margin-left: 1px;
+        margin-top: 2px;
+        color: $color-highlight;
+    }
+    .prices_item_title {
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 32px;
+        padding-bottom: 3px;
+    }
+    
+    
+    
+    // RIGHT SIDE
+    
+    .prices_title_right_side {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 21px;
+        margin:  auto;
+    }
+    .prices_right_side {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .prices_pic {
+       display: none;
+    
+    }
+    .prices_btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: auto;
+    }
+
+
+}
+
+//SMALLEST SCREEN
+
+@media (min-width: $smallest_breakpoint) and (max-width: $mobile-breackpoint) {
+    .prices {
+        height: 512px;
+    }
+    //perfect
+    .prices_container {
+       flex-direction: column;
+    }
+    //perfect
+    .prices_title_left {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0;
+        padding-top: 25px;
+        padding-bottom: 38px;
+    }
+    .prices_box {
+        margin: auto;
+        width: 224px;
+        height: 220px;
+        padding-top: 15px;
+    }
+    .prices_item {
+        width: 180px;
+        height: 49.72px;
+        margin: 14px auto;
+    }
+    .circle {
+        width: 16px;
+        height: 16px;
+        background-color: $color-elements;
+        margin-right: 38px;
+        border-radius: 50%;
+    }
+    #element {
+        font-size: 14px;
+        width: 4px;
+        margin-left: 1px;
+        margin-top: 2px;
+        color: $color-highlight;
+    }
+    .prices_item_title {
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 32px;
+        padding-bottom: 3px;
+    }
+    
+    
+    
+    // RIGHT SIDE
+    
+    .prices_title_right_side {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 21px;
+        margin:  auto;
+    }
+    .prices_right_side {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .prices_pic {
+       display: none;
+    
+    }
+    .prices_btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: auto;
+    }
+}
+
